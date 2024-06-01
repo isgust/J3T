@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --cor-texto: #FBA250; /* Cor do texto */
+    --cor-fundo-cabecalho: #000000; /* Cor de fundo do cabeçalho */
+    --cor-hover: #FFF; /* Cor do texto durante o hover */
+}
+
+.cabecalho {
+    font-family: "DM Sans", sans-serif;
+    padding-top: 20px;
+    background-color: var(--cor-fundo-cabecalho); 
+    height: 84px;
+    width: 100vw;
+    align-items: center;
+}
+
+.logo {
+    height: 53px;
+    width: 150px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 930px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-texto); 
+}
+
+a:hover {
+    color: var(--cor-hover); 
+}

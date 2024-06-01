@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J3T</title>
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
 </head>
 <body>
-    <H2>J3T</H2>
-    <ul>
-        <li><a href="{% url 'index' %}">Início</a></li> 
-        <li><a href="{% url 'contato' %}">Contato</a></li>  
-        <li><a href="{% url 'quemSomos' %}">Quem Somos</a></li>  
-        <li><a href="{% url 'servicos' %}">Serviços</a></li>  
-    </ul>
+    <header class="cabecalho">
+        <nav class="main-nav">
+            <div class="logo-container">
+                <a href="{% url 'index' %}">
+                    <img src="{% static 'img/logo.png' %}" alt="Logotipo da J3T" class="logo">
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="{% url 'index' %}">Home</a></li>
+                <li class="nav-item"><a href="{% url 'contato' %}">Serviços</a></li>
+                <li class="nav-item"><a href="{% url 'quemSomos' %}">Equipe</a></li>
+                <li class="nav-item"><a href="{% url 'servicos' %}">Contato</a></li>
+            </ul>
+        </nav>
+    </header>    
 </body>
 </html>
