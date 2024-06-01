@@ -17,7 +17,7 @@ Para executar o projeto localmente em sua máquina, siga estas etapas:
 
 1. Clone o repositório para sua máquina local:
    ```sh
-   git clone https://github.com/seu-usuario/J3T.git
+   git clone https://github.com/isgust/J3T
 
 
 2. Inicie o servidor de desenvolvimento:
