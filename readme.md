@@ -1,6 +1,6 @@
 # J3T - Projeto de Website para Serviço de Lanternagem e Pintura
 
-Bem-vindo ao repositório do projeto J3T, um website desenvolvido para uma empresa fictícia especializada em lanternagem e pintura automotiva, chamada J3T.
+Bem-vindo ao repositório do projeto J3T, um website desenvolvido para uma empresa especializada em lanternagem e pintura automotiva, chamada J3T.
 
 ## Descrição do Projeto
 
