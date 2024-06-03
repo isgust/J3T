@@ -1,3 +1,6 @@
+:root{
+    --cor--fundo: #728DA1;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,5 +9,5 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: #728DA1;
+    background-color: var(--cor--fundo);
 }
