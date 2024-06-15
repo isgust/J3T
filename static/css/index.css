@@ -1,5 +1,6 @@
 :root{
     --cor--fundo: #728DA1;
+    --fundo-objeto: #16344B;
 }
 *{
     margin: 0;
@@ -10,4 +11,21 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: var(--cor--fundo);
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 521px;
+}
+
+.banner-text{
+    width: 50%;
+    background-color: var(--fundo-objeto);
+
+}
+
+.banner-img{
+    width: 50%;
+    height: 521px;
 }
