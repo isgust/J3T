@@ -16,6 +16,9 @@
                     <img src="{% static 'img/logo.png' %}" alt="Logotipo da J3T" class="logo">
                 </a>
             </div>
+            <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="53" height="58" viewBox="0,0,256,256">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(6.4,6.4)"><path d="M1.5,17.5h37v5h-37z" fill="#ffffff"></path><path d="M38,18v4h-36v-4h36M39,17h-38v6h38v-6z" fill="#fba250"></path><path d="M1.5,7.5h37v5h-37z" fill="#ffffff"></path><path d="M38,8v4h-36v-4h36M39,7h-38v6h38v-6z" fill="#fba250"></path><g><path d="M1.5,27.5h37v5h-37z" fill="#ffffff"></path><path d="M38,28v4h-36v-4h36M39,27h-38v6h38v-6z" fill="#fba250"></path></g></g></g>
+            </svg>
             <ul class="nav-list">
                 <li class="nav-item"><a href="{% url 'index' %}">Home</a></li>
                 <li class="nav-item"><a href="{% url 'servicos' %}">Serviços</a></li>
@@ -24,6 +27,13 @@
             </ul>
         </nav>
     </header>    
+    <section>
+        <div>
+            <p>Oferecemos diversos serviços automotivos para seu conforto e estilo estar <b>sempre em alta</b>.</p>
+            <button>Saiba mais</button>
+        </div>
+        <img src="" alt="">
+    </section>
     <script src="{% static 'js/responsiveHeader.js'%}"></script>
 </body>
 </html>
