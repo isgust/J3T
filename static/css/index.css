@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 :root{
-    --cor--fundo: #728DA1;
-    --fundo-objeto: #16344B;
+    --cor--fundo: #728DA1;  /* Cor do fundo */
+    --fundo-objeto: #16344B; /* Cor de obejtos */
+    --cor-texto--banner: #FFFFFF; /* Cor do texto */
+    --laranja--banner: #FB8B24;
 }
 *{
     margin: 0;
@@ -8,7 +12,7 @@
 }
 
 body{
-    height: 100vh;
+    font-family: "DM Sans", sans-serif;
     width: 100vw;
     background-color: var(--cor--fundo);
 }
@@ -17,6 +21,12 @@ body{
     display: flex;
     width: 100%;
     height: 521px;
+    color: var(--cor-texto--banner);
+    margin-bottom: 80px;
+}
+
+b{
+    color: var(--laranja--banner);
 }
 
 .banner-text{
@@ -24,8 +34,30 @@ body{
     background-color: var(--fundo-objeto);
 
 }
+.banner-text p {
+    font-size: 30px;
+    width: 450px;
+    margin-top: 140px;
+    margin-left: 25%;
+    text-align: justify;
+    
+
+}
 
 .banner-img{
     width: 50%;
     height: 521px;
+}
+
+.button-sm{
+    font-size: 20px;
+    background-color: var(--laranja--banner);
+    border: none;
+    border-radius: 10px;
+    color: var(--cor-texto--banner);
+    font-weight: bold;
+    height: 46px;
+    width: 176px;
+    margin-left: 25%;
+    margin-top: 20px;
 }

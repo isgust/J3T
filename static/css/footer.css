@@ -1,0 +1,46 @@
+:root{
+    --cor--footer: #000000;
+    --texto--footer:#FFFFFF;
+}
+
+.rodape{
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    height: 350px;
+    color: var(--texto--footer);
+}
+
+.rodape .row{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: var(--fundo-objeto);
+}
+.logo-footer{
+    right: 100px;
+    height: 66px;
+}
+
+.box-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.about{
+    width: 400px;
+    text-align: justify;
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+}
